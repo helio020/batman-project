@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman</title>
+    <link rel="stylesheet" href="styles2.css" />
+</head>
+<body>
+    <header>
+        <img id="logo" src="OIP.jpg" />
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>  
+                </a>
+                <a href="contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="banner"></div>
+    <div class="container">
+        <h2>Contato</h2>
+        <form action="action_page.php">
+            <label for="nome">Nome</label>
+            <input type="text" id="name" name="firstname" placeholder="Digite seu nome aqui..." />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email aqui..." />
+            <label for="country">País</label>
+            <select id="country" name="country">
+                <option value="brazil">Brasil</option>
+                <option value="canada">Canadá</option>
+                <option value="usa">EUA</option>
+                <option value="mexico">México</option>
+                <option value="europe">Europa</option>
+                <option value="africa">África</option>
+                <option value="asia">Ásia</option>
+                <option value="oceania">Oceania</option>
+                <option value="middle-east">Oriente Médio</option>
+                <option value="southamerica">América do Sul</option>
+                <option value="centralamerica">América Central</option>
+            </select>
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" placeholder="Digite sua mensagem aqui..."></textarea>
+            <input type="submit" value="Enviar"  id="button" />
+        </form>
+    </div>
+
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./OIP.jpg" />
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: Hélio Ribeiro</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="index.html">
+                    <li>Home</li>  
+                </a>
+                <a href="contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
